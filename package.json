@@ -32,8 +32,6 @@
   },
   "scripts": {
     "lint": "grunt lint",
-    "build": "grunt build",
-    "test": "grunt test",
     "start": "node server/server"
   },
   "analyze": false,
