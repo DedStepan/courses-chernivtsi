@@ -1,0 +1,533 @@
+:active, :hover, :focus {
+  outline: none;
+  -webkit-appearance: none;
+}
+.log button{
+    color: white;
+    background-color: #7B1FA2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+padding:20px;
+font-size: 15pt;
+line-height: 20px;
+margin: 20px;
+float: right;
+width: 170px;
+height: 80px;
+text-align: center;
+font-weight: bold;
+border: none;
+outline: none;
+margin-top:-10px ;
+}
+.log button:hover     
+{ 
+
+   background-color: #3949AB;
+}
+.log button:active   
+{ 
+  box-shadow:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  background-color: #5E35B1;
+}
+.log2 button
+{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 15pt;
+    line-height: 20px;
+    margin: 20px;
+    float: right;
+    width: 170px;;
+    height: 80px;
+    text-align: center;
+    background-color: #7B1FA2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-top:-10px ;
+}
+.log2 button:hover   
+{ 
+   background-color: #3949AB;
+}
+.log2 button:active   
+{ 
+  box-shadow:none;  
+    border: none;
+    outline: none;
+    cursor: pointer;
+  background-color: #5E35B1;
+}
+@media screen and (max-width: 1000px) {
+  .mobT {
+visibility: hidden;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .mobM {
+    float: left;
+font-size: 25pt;
+margin-top: 10px;
+color:white;
+margin-left: 20px; 
+margin-top: -20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .mobM {
+visibility: hidden;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .log button {
+      font-size: 18pt;
+      width: 20%;
+      height: 120px;
+      margin-top: -80px;
+     border-radius: 0px;
+      line-height: 40px;
+      margin-left: 10px ;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .log2 button {
+      font-size: 18pt;
+      width: 20%;
+      height: 120px;
+      margin-top: -80px;
+      border-radius: 0px; 
+      line-height: 40px;
+      margin-right: 30px ;
+      margin-left: 15px ;
+      
+  }
+}
+
+.logF1 button{
+    border: none;
+outline: none;
+    color: #fff;
+    background: #7B1FA2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding:20px;
+    font-size: 15pt;
+    line-height: 40px;
+    margin: 20px;
+    float: right;
+    margin-right: 20%;
+    width: 280px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    }
+    @media screen and (max-width: 1000px) {
+        .logF1 button {
+            font-size: 20pt;
+            width: 30%;
+            height: 120px;
+            margin: 20px;
+            margin-right:15%;
+            line-height: 40px;
+        }
+      }
+.logF1 button:hover     
+{ 
+
+   background-color: #3949AB;
+}
+.logF1 button:active   
+{ 
+  box-shadow:none;
+  box-shadow:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  background-color: #5E35B1;
+}
+    .logF2 button{
+        color: #fff;
+        border: none;
+        outline: none;
+        background: #7B1FA2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        padding:20px;
+        font-size: 15pt;
+        line-height: 23px;
+        margin: 20px;
+        margin-left: 20%;
+        float: left;
+        width: 280px;
+        height: 80px;
+        text-align: center;
+        font-weight: bold;
+        }
+        @media screen and (max-width: 1000px) {
+            .logF2 button {
+                font-size: 20pt;
+                width: 30%;
+                height: 120px;
+                margin: 20px;
+                margin-left: 15%;
+                line-height: 40px;
+            }
+          }
+.logF2 button:hover     
+{ 
+
+   background-color: #3949AB;
+}
+.logF2 button:active   
+{ 
+  box-shadow:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  background-color: #5E35B1;
+}
+.back1{
+    background: #651FFF;
+    width: 100%;
+    height: 640px;
+    margin-top: 50px
+    }
+    @media screen and (max-width: 1000px) {
+      .back1 {
+        margin-top: 80px;
+        
+      }
+    }
+.back{
+background: rgba(0, 191, 165, 0.9);
+width: 100%;
+height: 550px;
+}
+@media screen and (max-width: 1000px) {
+  .back {
+    background: rgba(0, 191, 165, 0.9);
+    width: 100%;
+    height: 700px;
+  }
+}
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.headT{
+  float: left;
+font-style: normal;
+font-weight: bold;
+font-size: 30pt;
+line-height: 80px;
+display: flex;
+align-items: center;
+text-align: center;
+text-indent: 20px;
+color: #263238;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  .box3 {
+    float: left;
+  }
+  .box {
+    float: right;
+  }
+  .box1 {
+    float: left;
+  }
+  @media screen and (max-width: 1000px) {
+    .headT {
+      float: none;
+    }
+  }
+  
+  .mobT
+{
+color: white;
+margin-right: 20px;
+margin-top: 45px;
+float: right;
+font-size: 15pt;
+text-align: center;
+font-weight: bold;
+margin-top:15px ;
+}
+.mobT1
+{
+  
+color: white;
+margin-right: 20px;
+margin-top: 45px;
+float: right;
+font-size: 15pt;
+text-align: center;
+font-weight: bold;
+}
+.boxPreF
+{
+  text-align: center;
+}
+.headN
+{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 35pt;
+}
+@media screen and (max-width: 1000px) {
+  .headN {
+    margin-top: 150px;
+  }
+}
+.boxx
+{
+  margin-top: 100px;
+  margin: auto;
+}
+.button1 button
+{ 
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    padding: 22px;
+    font-size: 20pt;
+   margin-top: 100px;
+
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    background: #7B1FA2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .button1 button {
+        font-size: 20pt;
+        width: 40%;
+        height: 120px;
+        margin-left: 30%;
+        margin-right: 30%;
+        line-height: 40px;
+        margin-top:100px;
+      }
+  }
+.button1 button:hover     
+{ 
+
+   background-color: #3949AB;
+}
+.button1 button:active   
+{ 
+  box-shadow:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  background-color: #5E35B1;
+}
+.button2 button
+{
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    padding: 22px;
+    font-size: 20pt;
+
+   
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    background: #7B1FA2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .button2 button {
+        font-size: 20pt;
+        width: 40%;
+        height: 120px;
+        margin-left: 30%;
+        margin-right: 30%;
+        line-height: 40px;
+        margin-top:10px;
+    }
+  }
+.button2 button:hover     
+{ 
+
+   background-color: #3949AB;
+}
+.button2 button:active   
+{ 
+  box-shadow:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  background-color: #5E35B1;
+}
+
+@media screen and (max-width: 1000px) {
+  .list {
+  margin-top:40px;
+  }
+}
+.list
+{
+    padding: 40px;
+    padding-right: 20px;
+    text-align: left;
+    margin-left: 10%;
+    
+}
+.list li
+{
+    font-size: 25pt;
+}
+.listF h1
+{
+    font-weight: bold;
+    font-size: 30pt;
+}
+.listF
+{
+    padding: 40px;
+    padding-right: 20px;
+    text-align: left;
+    margin-left: 10%;
+    
+}
+.listF li
+{
+    font-size: 25pt;
+}
+.listF h1
+{
+    font-weight: bold;
+    font-size: 30pt;
+}
+.textF
+{
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    margin: 25px;
+    
+}
+.clear {
+    clear: left; /* Отмена обтекания */
+   }
+
+
+
+
+
+   input[type=text], input[type=password] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 15%;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  .container p
+  {
+    letter-spacing: 0.01em;
+    word-spacing: 10px;
+    font-size: 30pt;
+    text-align: center;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    padding-top:  0px;
+
+  }
+  
+  
+ /* Modal Content/Box */
+.size-cont {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  height: 600px;
+}
+  
+  
+   
+  
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 1000px) {
+    .size-cont {
+       width: 70%;
+       height: 600px;
+    }
+  }
+
+
+  .reg{
+    margin-top: 60px
+  }
+  .logbottom button{
+    width: 300px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 60px;
+}
+@media screen and (max-width: 1000px) {
+  .logbottom button {
+    margin-top: 40px;
+  }
+}
